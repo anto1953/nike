@@ -1,0 +1,569 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+html,
+body{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+
+.header{
+    width: 100%;
+    height: 36px;
+    background-color: #F5F5F5; ;
+    display: flex;
+    justify-content:space-between;
+    padding: 0 50px;
+    align-items:end;
+    
+   
+}
+.img1{
+    position: absolute;
+    height: 31px;
+    width: 35px;
+    top: 6px;
+    left: 45px;
+}
+.header1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.header1 li{
+    padding-right: 15px;
+}
+
+.header ul{
+    font-size: 12px;
+    display: flex;
+   
+    list-style: none;
+    padding-left: 1065px;
+    list-style: none;
+    margin-bottom: 10px;
+    
+   
+    
+}
+.header ul li{
+    cursor: pointer;
+    margin-right: 2px;
+
+}
+.header ul li:hover{
+    opacity: 60%;
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    
+    
+    background-color: white;
+    
+}
+.nav1{
+   
+    display: flex;
+   
+    justify-content: center;
+
+    
+    
+}
+.nav1 ul{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-left: 280px;
+    
+    
+}
+.nav ul li{
+margin-right: 20px;
+
+font-size: 17px;
+font-weight: 10px;
+
+cursor: pointer;
+
+
+
+}
+.nav ul li:hover{
+    text-decoration: underline;
+}
+.navimg{
+    height: 80px;
+    width: auto;
+    
+}
+.searchbtn{
+    background: transparent;
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    
+    background-color:#f0f1f6;
+    
+
+
+}
+.searchbtn:hover{
+    background-color: #c6ced8;
+}
+.searchimg{
+    width: 32px;
+    position: absolute;
+    top: 0px;
+    right: 134px;
+    
+    
+    
+    
+}
+.searchfield{
+    border: none;
+    position: absolute;
+    top: 9px;
+    left: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 35px;
+    background: transparent;
+    font-size: large;
+    opacity: 0.5;    
+    font-size: 16px;
+    width: 130px;
+    border: transparent;
+    
+}
+.nav2:hover{
+    background-color:#c6ced8;
+    
+}
+
+
+.nav2{
+    border-radius: 110px;
+    background-color:#F5F5F5;;
+    border-color: #CACACB;
+    width: 170px;
+    height: 35px;
+    position: absolute;
+    left: 1175px;
+}
+
+
+.favorite{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 87px;
+    background-color:white;
+    border: none;
+    border-radius: 50%;
+}
+.favorite:hover{
+    background-color: #bec8d4;
+}
+.favoriteimg{
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+    
+
+}
+.cart{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 40px;
+    background-color:white;
+    border: none;
+    border-radius: 50%;
+
+}
+.cart:hover{
+    background-color: #bec8d4;
+}
+.cartimg{
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    top: -11px;
+    right: -4px;
+    
+
+}
+.middle{
+    width: 100%;
+    height: 70px;
+    background-color: #F5F5F5;
+    position:absolute;
+    top: 100px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+.underline{
+    text-decoration: underline;
+}
+h4{
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.picture1{
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    top: 172px;
+
+    background-color: white;
+    cursor: pointer;
+}
+.pictureimg{
+    height: 86%;
+    width: 93%;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    top: px;
+    left: 50px;
+}
+.picture11{
+    width: 100%;
+    height: 290px;
+    background-color: white;
+    position: relative;
+    bottom: -609px;
+    
+    text-align: center;
+}
+.h1txt{
+    font-family: "Oswald", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    letter-spacing: -5px;
+    cursor: pointer;
+}
+  
+
+.picture11btn{
+    background-color: black;
+    color: white;
+    width: 70px;
+    height: 35px;
+    border-radius: 30px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.picture11btn:hover{
+    opacity: 60%;
+}
+.picture2{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    text-align: start;
+    cursor: pointer;
+    position: relative;
+    top: 550px;
+    cursor: pointer;
+}
+.picture2scroll{
+    overflow: auto;
+    scrollbar-width: none;
+    position: relative;
+    top: -40px;
+}
+.picture2scroll img{
+    padding-left: 8px;
+    width: 460px;
+}
+.picture2scroll p{
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+}
+.picture2scroll a{
+    color: black;
+    position: relative;
+    left: 10px;
+    font-size: 17px;
+}
+.picture2scroll:hover{
+    scrollbar-width: auto;
+}
+.picture2 h1{
+    font-family: "Oswald", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 1000;
+    font-size: 80px;
+    letter-spacing: -5px;
+}
+.picture2btn{
+    width: 180px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border-radius:  20px;
+    text-align: center;
+    font-weight: bold;
+}
+   
+.bottom p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    position: absolute;
+    cursor: pointer;
+
+}
+.picture3{
+  
+    width: 95%;
+    margin-left: 47px;
+    
+    justify-content: center;
+    align-content:center ;
+    position: relative;
+    top: 680px;
+    cursor: pointer;
+}
+.picture3 img{
+    width: 98%;
+    height: 90%;
+}
+.picture3 ul{
+    display: flex;
+}
+.picture3 li{
+    font-size: 19px;
+    font-weight: 100;
+}
+.picture3 a{
+    color: black;
+}
+
+.picture4{
+    width: 100%;
+    height: 100%;
+    
+    position: relative;
+    top: 750px;
+    cursor: pointer;
+
+
+}
+.picture41{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 100px;
+    display: flex;
+   
+}
+.picture4ul li{
+    position: relative;
+    top: -600px;
+    margin-left: 50px;
+   
+}
+.picture42{
+    width: 100%;
+    margin-left: 35px;
+    overflow:scroll;
+    justify-content: center;
+    align-content:center ;
+    align-items: center;
+    position: relative;
+    top: -600px;
+    scrollbar-width: none;
+    height: 500px;
+}
+.picture42:hover{
+    scrollbar-width: auto;
+}
+.picture42 img{
+    width: 450px;
+    height: 90%;
+
+}
+.picture42ul li{
+    position: relative;
+    padding-left: 10px;
+}
+.picture42ul{
+    position: relative;
+    top: -130px;
+}
+.picture5{
+    width: 94.4%;
+    
+    position: relative;
+    text-align: center;
+    
+    align-content: center;
+    justify-content: center;
+    left: 47px;
+    top: 700px;
+    cursor: pointer;
+}
+.picture5p{
+  font-family: "Oswald", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 1000;
+  font-size: 80px;
+  letter-spacing: -5px;
+  position: relative;
+}
+.picture5btn{
+    background-color: black;
+    color: white;
+    width: 70px;
+    height: 35px;
+    border-radius: 30px;
+    font-size: 17px;
+}
+.picture6{
+    width: 100%;
+    
+    position: relative;
+    cursor: pointer;
+    align-content: center;
+    justify-content: center;
+   
+   
+}
+
+.picture6scroll{
+    position: relative;
+    width: 1480px;  
+    overflow: auto;
+    white-space: nowrap;
+    top:-50px;
+    scrollbar-width:none;
+}
+.picture6scroll img{
+    width: 30%;
+    padding-left: 8px;
+}
+.picture6right,picture6left{
+    width: 45px;
+    height: 45px;
+    background-color: #d9d9e7;
+    border-radius: 50%;
+    position: relative; 
+}
+.picture6right img{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 5px;
+}
+.picture6left img{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 5px; 
+}
+.picture6scroll:hover{
+    scrollbar-width: auto;
+}
+
+.picture7scroll{
+    position: relative;
+    width: 1480px;  
+    overflow: auto;
+    white-space: nowrap;
+    top: 0px;
+    display: flex;
+    scrollbar-width:none;
+    text-align: start;
+    cursor: pointer;
+}
+.picture7scroll img{
+    padding-left: 8px;
+    width: 460px;
+}
+.picture7scroll p{
+    position: relative;
+    left: 10px;
+}
+.picture7scroll a{
+    color: black;
+    position: relative;
+    left: 10px;
+    font-size: 17px;
+}
+.picture7scroll:hover{
+    scrollbar-width: auto;
+}
+
+.picture8scroll{
+  position: relative;
+  width: 1480px;  
+  overflow: auto;
+  white-space: nowrap;
+  display: flex;
+  cursor: pointer;
+  scrollbar-width:none;
+  
+}
+.picture8scroll:hover{
+    scrollbar-width:auto;
+}
+
+.bottom1 li{
+    text-align: start;
+    font-weight: 600;
+    opacity: 50%;
+    cursor: pointer;
+}
+.bottom1 li:hover{
+    opacity: 88%;
+}
+.bottom1 ul{
+    color: black; 
+    list-style: none; 
+}
+.battom21 h2:hover{
+    opacity: 60%;
+}
+.bottom2 li{
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    opacity: 50%;
+    cursor: pointer;
+}
+
+
+
+
+
+    
+
+  
+
